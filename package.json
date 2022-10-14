@@ -1,0 +1,32 @@
+{
+  "name": "webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-t-w/webpack-plugin.git"
+  },
+  "author": "wtw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w-t-w/webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/w-t-w/webpack-plugin#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-sources": "^3.2.3"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
